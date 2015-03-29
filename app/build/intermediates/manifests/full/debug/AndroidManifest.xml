@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hicck.alphack.alphack"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Alphack!"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hicck.alphack.alphack.GameSplash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_game_splash"
+            android:theme="@style/FullscreenTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hicck.alphack.alphack.Alphack"
+            android:label="@string/title_activity_alphack" >
+        </activity>
+        <activity
+            android:name="com.hicck.alphack.alphack.ScoreActivity"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name="com.hicck.alphack.alphack.ModeActivity"
+            android:label="@string/title_activity_mode" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.hicck.alphack.alphack.ModeActivity">
+
+    <TextView android:text="Choose a mode, mate." android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modeText"
+        android:textSize="30dp"
+        android:textIsSelectable="false"
+        android:layout_above="@+id/ones"
+        android:layout_alignRight="@+id/alphack"
+        android:layout_alignEnd="@+id/alphack" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/ones"
+        android:src="@drawable/ones"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/twos"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ones"
+        android:layout_toEndOf="@+id/ones"
+        android:src="@drawable/twos" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/threes"
+        android:src="@drawable/threes"
+        android:layout_below="@+id/ones"
+        android:layout_alignLeft="@+id/ones"
+        android:layout_alignStart="@+id/ones" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:id="@+id/four"
+        android:layout_below="@+id/ones"
+        android:layout_toRightOf="@+id/threes"
+        android:layout_toEndOf="@+id/threes"
+        android:src="@drawable/fours" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ALPHACK!"
+        android:id="@+id/alphack"
+        android:textColor="#ffff546f"
+        android:textSize="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>
+<!-- From: file:/C:/Users/SuBi/AndroidStudioProjects/Alphack/app/src/main/res/layout/activity_mode.xml -->
