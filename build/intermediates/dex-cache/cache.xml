@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\SuBi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-dd0180fea3d78d50a95b239aa4b56d08ee4e9992.jar" />
+    </item>
+    <item
+        jar="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\pre-dexed\debug\classes-0d7db1b9f314bf356bcb463a1eefdebb1976f062.jar" />
+    </item>
+    <item
+        jar="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-85b15f185a4d9cfa08d610a25059c5092cc66c8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="C:\Users\SuBi\AndroidStudioProjects\Alphack\app\build\intermediates\pre-dexed\debug\classes-24d81b2f1d3811a161823b24fd44ef8cb345808e.jar" />
+    </item>
+
+</items>
